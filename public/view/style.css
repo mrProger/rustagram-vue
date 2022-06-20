@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Podkova-Regular';
+    src: url('../fonts/Podkova-Regular.ttf');
+}
+
+body {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+}
+
+@media (max-height: 768px) {
+    .home-page__buttons__auth-button {
+        width: 250px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .home-page__buttons__register-button {
+        width: 250px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .auth-window__button > input {
+        width: 250px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .register-window__button > input {
+        width: 250px;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .home-page__left-side__slogan > p {
+        font-size: 50px;
+    }
+
+    .register-window__login > input, .auth-window__login > input {
+        width: 350px;
+        height: auto;
+        font-size: 25px;
+    }
+
+    .register-window__password > input, .auth-window__password > input {
+        width: 350px;
+        height: auto;
+        font-size: 25px;
+    }
+}
+
+@media (min-height: 769px) {
+    .home-page__buttons__auth-button {
+        width: 340px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .home-page__buttons__register-button {
+        width: 340px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .auth-window__button > input {
+        width: 340px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .register-window__button > input {
+        width: 340px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .home-page__left-side__slogan > p {
+        font-size: 60px;
+    }
+
+    .register-window__login > input, .auth-window__login > input {
+        width: 450px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .register-window__password > input, .auth-window__password > input {
+        width: 450px;
+        height: 50px;
+        font-size: 30px;
+    }
+}
+
+.mobile-input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.mobile-button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+
+:active, :hover, :focus {
+    box-shadow: none !important;
+}
+
+.home-page__left-size__slogan {
+    margin: 16% auto auto 0.5%;
+    text-shadow: 3px 4px 5px #000;
+}
+  
+.home-page__left-side__slogan > p {
+    font-weight: bold;
+    font-family: 'Podkova-Regular';
+    color: white;
+    display: inline;
+}
+
+.home-page__left-side__slogan > p:nth-child(2), p:nth-child(3) { 
+    margin-left: 2%;
+}
+
+.home-page__left-side__logo {
+    margin: 2% auto 2% auto;
+}
+
+.home-page__buttons {
+    margin-top: 10%;
+}
+
+.home-page__buttons__auth-button {
+    font-family: 'Roboto-Regular';
+    background-color: #407EC6 !important;
+    border-color: #407EC6 !important;
+    border-radius: 5px;
+}
+
+.home-page__buttons__auth-button:hover {
+    background-color: #2C5585 !important;
+    border-color: #2C5585 !important;
+    border-radius: 5px;
+}
+
+.home-page__buttons__register-button {
+    font-family: 'Roboto-Regular';
+    background-color: #3D9B41 !important;
+    border-color: #3D9B41 !important;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.home-page__buttons__register-button:hover {
+    background-color: #2A642D !important;
+    border-color: #2A642D !important;
+    border-radius: 5px;
+}
+
+.auth-window__button > input {
+    font-family: 'Roboto-Regular';
+    background-color: #407EC6 !important;
+    border-color: #407EC6 !important;
+    border-radius: 5px;
+}
+
+.auth-window__button > input:hover {
+    background-color: #2C5585 !important;
+    border-color: #2C5585 !important;
+    border-radius: 5px;
+}
+
+.register-window__button > input {
+    font-family: 'Roboto-Regular';
+    background-color: #3D9B41 !important;
+    border-color: #3D9B41 !important;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.register-window__button > input:hover {
+    background-color: #2A642D !important;
+    border-color: #2A642D !important;
+    border-radius: 5px;
+}
+
+.register-window__login > input, .auth-window__login > input {
+    border-radius: 5px;
+    opacity: 0.3;
+    font-family: 'Roboto-Regular';
+    transition: 0.25s;
+}
+
+.auth-window__login > input:focus {
+    opacity: 1;
+}
+
+.auth-window__password > input:focus {
+    opacity: 1;
+}
+
+.register-window__login > input:focus {
+    opacity: 1;
+}
+
+.register-window__password > input:focus {
+    opacity: 1;
+}
+
+.register-window__password > input, .auth-window__password > input {
+    border-radius: 5px;
+    opacity: 0.3;
+    font-family: 'Roboto-Regular';
+    transition: 0.25s;
+}
+
+.auth-window, .register-window {
+    display: none;
+}
+
+.auth-window > div, .register-window > div {
+    margin-top: 20%;
+}
+
+.auth-window__password, .register-window__password {
+    margin-top: 5%;
+}
+
+.auth-window__button, .register-window__button {
+    margin-top: 15%;
+}
