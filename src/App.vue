@@ -3,6 +3,9 @@
 </template>
 
 <style lang="scss">
+@import '../public/view/style.css';
+@import '../public/view/Bootstrap/boostrap.min.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
