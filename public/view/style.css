@@ -221,10 +221,6 @@ body {
     transition: 0.25s;
 }
 
-.auth-window, .register-window {
-    display: none;
-}
-
 .auth-window > div, .register-window > div {
     margin-top: 20%;
 }
