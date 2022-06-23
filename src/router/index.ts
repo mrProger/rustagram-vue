@@ -5,7 +5,7 @@ import RegisterView from '../views/RegisterView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/rustagram/',
+    path: '/rustagram',
     name: 'home',
     component: HomeView
   },

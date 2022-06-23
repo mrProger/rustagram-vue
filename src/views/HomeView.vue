@@ -2,7 +2,7 @@
   <div class="container-fluid home-page">
     <div class="row">
       <div class="col text-center home-page__left-side">
-        <a href="/rustagram/">
+        <a href="/rustagram">
           <img src="../../public/image/Logo.png" alt="Лого" class="home-page__left-side__logo">
         </a>
         <div class="home-page__left-side__slogan text-justify">
